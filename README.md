@@ -1,3 +1,5 @@
+# Chronos will up to date to use python 3.11 
+
 # Chronos #
 ## README ##
 
@@ -65,7 +67,7 @@ echo -e "YES\nt=140" > /tmp/water_out
 #### System dependencies ####
 
 * nginx
-* uwsgi-plug-python
+* uwsgi-plug-python  --> ### This is in progress to be replaced with Gunicorn 22.0.0 (https://docs.gunicorn.org/en/stable/)
 
 #### Hardware dependencies ####
 
