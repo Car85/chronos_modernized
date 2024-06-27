@@ -7,7 +7,7 @@ run mkdir -p /home/pi/chronos_db
 # Install Gunicorn and the set up for Python 3.11
 RUN pip install --trusted-host pypi.org --trusted-host files.pythonhosted.org \
     flask pyserial pymodbus APScheduler==3.6.3 gunicorn==22.0.0 \
-    sqlalchemy python-socketio==0.4.1 socketIO_client six==1.15.0 \
+    sqlalchemy socketIO_client six==1.15.0 \
     gevent python-engineio==3.11.2 python-socketio==4.4.0 gevent-websocket
 
 copy . .
