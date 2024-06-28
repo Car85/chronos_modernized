@@ -1,4 +1,17 @@
-# Chronos will up to date to use python 3.11 
+- ### Proposals and Strategy for Modernization:
+- 1- **Chronos should separate the FrontEnd from the BackEnd**
+	- **1.1** An example of a base architecture, compatible with Raspberry Pi 3/4/5, for the new Chronos is defined at: [https://github.com/nickjj/docker-flask-example/tree/main](https://github.com/nickjj/docker-flask-example/tree/main)
+- 2- **All utilities developed with uWSGI in the legacy Chronos project should be replaced with Gunicorn**: [https://gunicorn.org/](https://gunicorn.org/)
+	- TODO: Define uWSGI utilities in legacy Chronos
+- 3- **Possible updates for the rest of the hardware**
+  - TODO
+- 4- **Modernized version of Chronos for legacy hardware (Raspberry Pi < 3)**
+  - TODO
+
+
+
+
+# Chronos will up to date to use python 3.12 
 
 # Chronos #
 ## README ##
